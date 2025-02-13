@@ -1,5 +1,3 @@
-const { solveEquation, calculateTotalMortgage } = require('./task');
-
 describe('Домашнее задание к занятию 1. «Основные понятия»', () => {
   describe('Задача №1', () => {
     it('должна возвращать 2 корня уравнения', () => {

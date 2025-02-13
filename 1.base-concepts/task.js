@@ -23,8 +23,3 @@ function calculateTotalMortgage(percent, contribution, amount, countMonths) {
 	let totalPayment = monthlyPayment * countMonths;
 	return +totalPayment.toFixed(2);
 }
-
-module.exports = {
-	solveEquation,
-	calculateTotalMortgage
-};
